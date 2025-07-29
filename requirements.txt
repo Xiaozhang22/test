@@ -1,0 +1,377 @@
+# TMS运输管理系统依赖包
+# Transportation Management System Requirements
+
+# Web框架
+Flask==2.3.3
+Flask-CORS==4.0.0
+
+# 数据处理和科学计算
+numpy==1.24.3
+pandas==2.0.3
+
+# 数据库
+sqlite3  # Python标准库，无需单独安装
+
+# 日期时间处理
+python-dateutil==2.8.2
+
+# 数据验证
+jsonschema==4.19.0
+
+# 配置管理
+python-dotenv==1.0.0
+
+# 日志增强
+colorlog==6.7.0
+
+# HTTP客户端（用于测试）
+requests==2.31.0
+
+# 开发和测试工具
+pytest==7.4.2
+pytest-cov==4.1.0
+pytest-mock==3.11.1
+
+# 代码质量
+flake8==6.0.0
+black==23.7.0
+isort==5.12.0
+
+# 文档生成
+Sphinx==7.1.2
+sphinx-rtd-theme==1.3.0
+
+# 性能分析
+memory-profiler==0.61.0
+line-profiler==4.1.1
+
+# 异步支持（可选）
+asyncio  # Python标准库
+
+# 缓存支持（可选）
+redis==4.6.0
+
+# 消息队列（可选）
+celery==5.3.1
+
+# 监控和指标
+prometheus-client==0.17.1
+
+# 安全
+cryptography==41.0.4
+
+# 环境管理
+virtualenv==20.24.5
+
+# 类型检查
+mypy==1.5.1
+
+# API文档
+flask-restx==1.1.0
+
+# 图形界面（可选）
+tkinter  # Python标准库
+
+# 数据可视化（可选）
+matplotlib==3.7.2
+plotly==5.16.1
+
+# 机器学习（可选，用于智能调度）
+scikit-learn==1.3.0
+
+# 网络通信
+websockets==11.0.3
+
+# 配置文件处理
+PyYAML==6.0.1
+configparser  # Python标准库
+
+# 时间处理
+pytz==2023.3
+
+# 数学计算
+scipy==1.11.2
+
+# 并发处理
+concurrent.futures  # Python标准库
+threading  # Python标准库
+multiprocessing  # Python标准库
+
+# 系统信息
+psutil==5.9.5
+
+# 序列化
+pickle  # Python标准库
+json  # Python标准库
+
+# 正则表达式
+re  # Python标准库
+
+# 文件操作
+pathlib  # Python标准库
+os  # Python标准库
+shutil  # Python标准库
+
+# 数据结构
+collections  # Python标准库
+dataclasses  # Python标准库
+enum  # Python标准库
+typing  # Python标准库
+
+# 算法和数据结构
+heapq  # Python标准库
+bisect  # Python标准库
+
+# 随机数生成
+random  # Python标准库
+secrets  # Python标准库
+
+# UUID生成
+uuid  # Python标准库
+
+# 抽象基类
+abc  # Python标准库
+
+# 函数工具
+functools  # Python标准库
+itertools  # Python标准库
+
+# 系统相关
+sys  # Python标准库
+platform  # Python标准库
+
+# 警告处理
+warnings  # Python标准库
+
+# 异常处理
+traceback  # Python标准库
+
+# 调试工具
+pdb  # Python标准库
+
+# 单元测试
+unittest  # Python标准库
+
+# 模拟对象
+unittest.mock  # Python标准库
+
+# 临时文件
+tempfile  # Python标准库
+
+# 压缩文件
+zipfile  # Python标准库
+tarfile  # Python标准库
+
+# 网络请求
+urllib  # Python标准库
+
+# XML处理
+xml  # Python标准库
+
+# HTML处理
+html  # Python标准库
+
+# 邮件处理
+email  # Python标准库
+smtplib  # Python标准库
+
+# 加密哈希
+hashlib  # Python标准库
+hmac  # Python标准库
+
+# Base64编码
+base64  # Python标准库
+
+# 字符串处理
+string  # Python标准库
+
+# 数学函数
+math  # Python标准库
+cmath  # Python标准库
+decimal  # Python标准库
+fractions  # Python标准库
+
+# 统计函数
+statistics  # Python标准库
+
+# 操作系统接口
+glob  # Python标准库
+fnmatch  # Python标准库
+
+# 命令行参数
+argparse  # Python标准库
+
+# 子进程
+subprocess  # Python标准库
+
+# 信号处理
+signal  # Python标准库
+
+# 套接字
+socket  # Python标准库
+
+# 选择器
+selectors  # Python标准库
+
+# SSL/TLS
+ssl  # Python标准库
+
+# 线程本地存储
+threading  # Python标准库
+
+# 队列
+queue  # Python标准库
+
+# 上下文管理
+contextlib  # Python标准库
+
+# 弱引用
+weakref  # Python标准库
+
+# 垃圾回收
+gc  # Python标准库
+
+# 内存映射
+mmap  # Python标准库
+
+# 数组
+array  # Python标准库
+
+# 二进制数据
+struct  # Python标准库
+
+# 代码对象
+code  # Python标准库
+
+# 字节码
+dis  # Python标准库
+
+# 检查
+inspect  # Python标准库
+
+# 导入系统
+importlib  # Python标准库
+
+# 包资源
+pkgutil  # Python标准库
+
+# 模块查找
+modulefinder  # Python标准库
+
+# 运行时服务
+atexit  # Python标准库
+
+# 复制
+copy  # Python标准库
+
+# 序列化
+pickle  # Python标准库
+copyreg  # Python标准库
+
+# 持久化
+shelve  # Python标准库
+dbm  # Python标准库
+
+# 压缩
+zlib  # Python标准库
+gzip  # Python标准库
+bz2  # Python标准库
+lzma  # Python标准库
+
+# 归档
+zipfile  # Python标准库
+tarfile  # Python标准库
+
+# 文件格式
+csv  # Python标准库
+configparser  # Python标准库
+
+# 标记语言
+html  # Python标准库
+xml  # Python标准库
+
+# 互联网协议
+urllib  # Python标准库
+http  # Python标准库
+ftplib  # Python标准库
+poplib  # Python标准库
+imaplib  # Python标准库
+smtplib  # Python标准库
+uuid  # Python标准库
+
+# 多媒体
+audioop  # Python标准库
+wave  # Python标准库
+chunk  # Python标准库
+sunau  # Python标准库
+aifc  # Python标准库
+
+# 国际化
+gettext  # Python标准库
+locale  # Python标准库
+
+# 程序框架
+cmd  # Python标准库
+shlex  # Python标准库
+
+# Tk图形用户界面
+tkinter  # Python标准库
+
+# 开发工具
+typing  # Python标准库
+pydoc  # Python标准库
+doctest  # Python标准库
+unittest  # Python标准库
+test  # Python标准库
+
+# 调试和分析
+bdb  # Python标准库
+faulthandler  # Python标准库
+pdb  # Python标准库
+profile  # Python标准库
+cProfile  # Python标准库
+pstats  # Python标准库
+timeit  # Python标准库
+trace  # Python标准库
+tracemalloc  # Python标准库
+
+# Python运行时服务
+sys  # Python标准库
+sysconfig  # Python标准库
+builtins  # Python标准库
+__main__  # Python标准库
+warnings  # Python标准库
+dataclasses  # Python标准库
+contextlib  # Python标准库
+abc  # Python标准库
+atexit  # Python标准库
+traceback  # Python标准库
+__future__  # Python标准库
+
+# 自定义Python解释器
+code  # Python标准库
+codeop  # Python标准库
+
+# 导入模块
+importlib  # Python标准库
+zipimport  # Python标准库
+pkgutil  # Python标准库
+modulefinder  # Python标准库
+runpy  # Python标准库
+
+# Python语言服务
+ast  # Python标准库
+symtable  # Python标准库
+symbol  # Python标准库
+token  # Python标准库
+keyword  # Python标准库
+tokenize  # Python标准库
+tabnanny  # Python标准库
+pyclbr  # Python标准库
+py_compile  # Python标准库
+compileall  # Python标准库
+dis  # Python标准库
+pickletools  # Python标准库
+
+# 杂项服务
+formatter  # Python标准库
